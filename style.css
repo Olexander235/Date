@@ -1,0 +1,37 @@
+body {
+   font-family: 'Arial', sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+   background: linear-gradient(to bottom right, #1e3c72, #2a5298);
+   color: white;
+}
+
+.timer {
+   display: flex;
+   gap: 20px;
+   background: rgba(0, 0, 0, 0.5);
+   padding: 20px 40px;
+   border-radius: 15px;
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.field {
+   text-align: center;
+}
+
+.value {
+   display: block;
+   font-size: 3em;
+   font-weight: bold;
+   color: #ffda79;
+}
+
+.label {
+   font-size: 1.2em;
+   text-transform: uppercase;
+   margin-top: 5px;
+   color: rgba(255, 255, 255, 0.8);
+}
